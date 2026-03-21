@@ -125,8 +125,9 @@ src/main/java/com/batch/settlement
 - Job 실행 전후 로그를 남기는 `JobLoggerListener` 포함
 - 정산 계산 로직을 Processor에 분리
 
-## 보완하면 좋은 부분
+## 보완 or 추가할 부분
 
+- 정산 완료 및 실패 시 메일 전송(추후 개발 예정)
 - 중복 정산 방지 전략 추가
 - 수수료율, 실행 대상일 등을 설정값으로 분리
 
